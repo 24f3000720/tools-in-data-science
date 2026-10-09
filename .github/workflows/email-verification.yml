@@ -1,0 +1,11 @@
+name: email verification
+
+on:
+workflow_dispatch:
+
+jobs:
+test:
+runs-on: ubuntu-latest
+steps:
+- name: 24f3000720@ds.study.iitm.ac.in
+run: echo “hello, world!”
