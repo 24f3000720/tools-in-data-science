@@ -65,4 +65,4 @@ def latency(req: Req):
             "breaches": int((lat > req.threshold_ms).sum()),
         }
 
-    return out
+    return {"regions": out}
